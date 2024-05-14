@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--styling-->
+    <link rel="stylesheet" href="styles.css">
+    <!--font link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a onclick="openNav()" id="open">&#9776;</a>
+    <div class="nav" id="nav">
+        <a id="close" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+        <a class="btn" onclick="window.location.href='/~/flaming/flaming-check/account-info'">My Account</a>
+        <a class="btn" onclick='logout()'>Log Out</a>
+    </div>
+    <div class="menu">
+        <img src="giphy.gif" id="logo">
+        <h1><b>Explore DOCHealth.Ai</b></h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="menu-container">
+            <div class="menu-item" onclick="window.location.href='/~/flaming/flaming-check/quiz'">
+                <img src="2.png" alt="heart icon with heart rate symbol">
+                <h3><b>Check Symptoms</b></h3>
+                <br>
+                <p>Use our visual symptom checker for quick head and eye condition predictions.</p>
+            </div>
+            <div class="menu-item" onclick="window.location.href='/~/flaming/flaming-check/posture'">
+                <img src="1.png" alt="sitting on a chair icon">
+                <h3>Align Sitting Posture</h3>
+                <br>
+      
+                <p>Check your sitting posture with our posture analyzer for helpful recommendations.</p>
+            </div>
+            <div class="menu-item" onclick="window.location.href='/~/flaming/flaming-check/account'">
+                <img src="4.png" alt="file document icon">
+                <h3>Access Results</h3>
+                <br>
+                <p>Browse and filter through all past and recent entries of symptoms and calculated results.</p>
+            </div>
+            <div class="menu-item" onclick="window.location.href='/~/flaming/flaming-check/glossary'">
+                <img src="3.png" alt="book icon">
+                <h3>Visit Glossary</h3>
+                <br>
+                <p>Explore our condition glossary for descriptions, causes, and more.</p>
+            </div>
+            <div class="menu-item" onclick="window.location.href='https://c2c.mirotalk.com/join?room=qwert12345&name=client'">
+                <img src="one.png" alt="book icon">
+                <h3>1-on-1 Consulting</h3>
+                <br>
+                <p>Experience Private 1-on-1 Chats with Our Expert Doctors. </p>
+            </div>
+            
+                        <div class="menu-item" onclick="window.location.href='http://localhost:5000/'">
+                <img src="one.png" alt="book icon">
+                <h3>Diet Consultant</h3>
+                <br>
+                <p>Experience Personalised Diet Recomendation for yourself through our Trained Model. </p>
+            </div>
+            
+                                    <div class="menu-item" onclick="window.location.href='http://localhost:5500/'">
+                <img src="one.png" alt="book icon">
+                <h3>Pneunmonia Detector</h3>
+                <br>
+                <p>Experience Personalised Pneumonia Detector. </p>
+            </div>
+            
+            <div class="menu-item" onclick="window.location.href='http://localhost:8000/'">
+                <img src="rt.png" alt="book icon">
+                <h3>ChatBot</h3>
+                <br>
+                <p>Uses prompts (Gen Ai) from user to generate Response.</p>
+            </div>
+                        <div class="menu-item" onclick="window.location.href='http://192.168.196.159:8000'">
+                <img src="iot.png" alt="book icon">
+                <h3>IOT Device Integration</h3>
+                <br>
+                <p>Uses IOT Device's prompts from user to generate Response.</p>
+            </div>
+        </div>
+    </div>
+    <script src="account.js"></script>
+</body>
+
+</html>
